@@ -1,0 +1,228 @@
+:root {
+  --turquoise: #66e2dc;
+  --orange: #fa7453;
+  --yellow: #ffb964;
+  --white: #fcfaf9;
+  --black: #191826;
+
+  --regular-weight: 400;
+  --bold-weight: 700;
+}
+
+body {
+  background-color: var(--white);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: var(--regular-weight);
+  background-image: url(/assets/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-position: 60% 120%;
+  position: relative;
+}
+
+/* General */
+.main-container {
+  margin: 0 16.5rem;
+}
+
+.logo {
+  height: 3.2rem;
+}
+
+.heading-primary {
+  font-weight: var(--bold-weight);
+  font-size: 8.8rem;
+  letter-spacing: -1px;
+}
+
+.heading-secondary {
+  font-weight: var(--bold-weight);
+  font-size: 4rem;
+  line-height: 1.3;
+}
+
+.body-1 {
+  font-size: 2rem;
+  line-height: 1.7;
+}
+
+.body-2 {
+  font-weight: var(--regular-weight);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* Specific */
+.bg-pattern-1 {
+  width: 31.2rem;
+  position: absolute;
+  top: -4rem;
+  right: 0;
+  z-index: -1;
+}
+
+.logo-top {
+  margin-top: 6.2rem;
+  margin-bottom: 12.7rem;
+}
+
+.hero-title {
+  width: 101.6rem;
+  color: var(--black);
+  margin-bottom: 4rem;
+}
+
+.hero-desc {
+  width: 82.5rem;
+  color: var(--black);
+  margin-bottom: 32.1rem;
+}
+
+.black-rect {
+  height: 60rem;
+  background-color: var(--black);
+  border-radius: 12px;
+  margin-bottom: 20.2rem;
+  position: relative;
+}
+
+.phone-img {
+  width: 31.3rem;
+  position: absolute;
+  left: 10.2rem;
+  bottom: 17.1rem;
+  z-index: 2;
+}
+
+.bg-pattern-2 {
+  width: 31.2rem;
+  height: 46.8rem;
+  position: absolute;
+  left: 33.6rem;
+  top: -4rem;
+  z-index: 1;
+}
+
+.cta-card {
+  width: 44.6rem;
+  height: 62.5rem;
+  background-color: var(--orange);
+  border-radius: 12px;
+  padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 9rem;
+  right: 9.5rem;
+  z-index: 3;
+}
+
+.cta-lower-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.cta-title {
+  color: var(--white);
+  margin-bottom: 2.2rem;
+}
+
+.cta-desc {
+  color: var(--white);
+  margin-bottom: 3.9rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.price-text {
+  font-size: 6.5rem;
+  font-weight: var(--bold-weight);
+  color: var(--white);
+}
+
+.per-month-text {
+  font-size: 2rem;
+  letter-spacing: -0.2px;
+  color: var(--white);
+}
+
+.btn {
+  width: 100%;
+  height: 6.1rem;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  font-weight: var(--bold-weight);
+  letter-spacing: -0.18px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.78rem;
+}
+
+.btn-ios {
+  background-color: var(--black);
+}
+
+.btn-ios:hover,
+.btn-ios:active {
+  background-color: var(--turquoise);
+}
+
+.btn-android {
+  background-color: var(--white);
+}
+
+.btn-android:hover,
+.btn-android:active {
+  background-color: var(--yellow);
+}
+
+.btn-icon {
+  height: 2rem;
+}
+
+.ios-text {
+  color: var(--white);
+}
+
+.android-text {
+  color: var(--black);
+}
+
+footer {
+  display: flex;
+  margin-bottom: 9.1rem;
+}
+
+.footer-content {
+  width: 100%;
+  margin-left: 13.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  width: 36.6rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-media-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+strong {
+  font-weight: var(--bold-weight);
+}

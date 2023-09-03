@@ -1,0 +1,187 @@
+/**************************/
+/* BELOW 1184px (Portrait Tablets) */
+/**************************/
+@media (max-width: 74em) {
+  body {
+    background-image: url("../assets/bg-main-tablet.png");
+    background-position: 80% -40%;
+  }
+
+  /* General */
+  .main-container {
+    margin: 0 3.9rem;
+  }
+
+  .heading-primary {
+    font-size: 6.4rem;
+    letter-spacing: -0.73px;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .body-1 {
+    font-size: 1.8rem;
+    line-height: 1.25;
+  }
+
+  /* Specific */
+  .bg-pattern-1 {
+    width: 26.7rem;
+    height: 40rem;
+    position: absolute;
+    top: -4rem;
+    right: -4rem;
+    z-index: -1;
+  }
+
+  .logo-top {
+    margin-bottom: 9.5rem;
+  }
+
+  .hero-title {
+    width: 52rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .hero-desc {
+    width: 52rem;
+    margin-bottom: 24.9rem;
+  }
+
+  .black-rect {
+    margin-bottom: 18.3rem;
+  }
+
+  .phone-img {
+    width: 27rem;
+    left: 6.4rem;
+    bottom: 18.2rem;
+  }
+
+  .bg-pattern-2 {
+    width: 28rem;
+    height: 42rem;
+    left: 22.9rem;
+  }
+
+  .cta-card {
+    width: 39.9rem;
+    height: 54.6rem;
+    padding: 4.8rem;
+    top: 15rem;
+    right: 5.8rem;
+  }
+
+  .cta-title {
+    margin-bottom: 1.2rem;
+  }
+
+  .cta-desc {
+    margin-bottom: 3.6rem;
+  }
+
+  footer {
+    display: block;
+    margin-bottom: 8.5rem;
+  }
+
+  .footer-content {
+    width: 100%;
+    margin-top: 3.2rem;
+    margin-left: 0;
+  }
+}
+
+/**************************/
+/* BELOW 576px (Mobile) */
+/**************************/
+@media (max-width: 36em) {
+  body {
+    background-image: url("../assets/bg-main-mobile.png");
+    background-position: 0% -20%;
+  }
+
+  /* General */
+  .main-container {
+    margin: 0;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+    letter-spacing: -0.45px;
+    line-height: 1.2;
+  }
+
+  .body-1 {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  /* Specific */
+  .bg-pattern-1 {
+    display: none;
+  }
+
+  .logo-top {
+    margin: 4rem 2.4rem 6.4rem 2.4rem;
+  }
+
+  .hero {
+    width: auto;
+    margin: 0 2.4rem 4rem 2.4rem;
+  }
+
+  .hero-title {
+    width: 100%;
+  }
+
+  .hero-desc {
+    width: 100%;
+    margin-bottom: 16.6rem;
+  }
+
+  .black-rect {
+    margin-bottom: 39rem;
+  }
+
+  .phone-img {
+    width: 20.9rem;
+    left: 50%;
+    bottom: 26.8rem;
+    transform: translate(-50%);
+  }
+
+  .bg-pattern-2 {
+    width: 28rem;
+    height: 42rem;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+  }
+
+  .cta-card {
+    width: 100%;
+    padding: 4.8rem 3.7rem 4.8rem 3.7rem;
+    top: 38rem;
+    right: 0;
+  }
+
+  footer {
+    margin: 0 3.9rem 8.2rem 3.3rem;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6.4rem;
+  }
+
+  .footer-text {
+    width: 100%;
+  }
+}
